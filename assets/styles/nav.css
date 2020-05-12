@@ -1,0 +1,9 @@
+.nav__link {
+	text-decoration: none;
+	text-transform:uppercase;
+	color: var(--c-white);
+	font-family: 'Bebas Neue', cursive;
+	margin-right: 20px;
+}
+
+   

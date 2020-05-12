@@ -1,0 +1,20 @@
+.btn {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	min-height: 30px;
+	min-width: 170px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--c-yellow);
+	font-weight: bolder;
+	border: none;
+}
+
+.partners__btn {
+	border: none;
+	background-color: transparent;
+}
