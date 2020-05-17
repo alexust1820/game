@@ -1,3 +1,9 @@
+
+.header__partner {
+	border: none;
+	background-color: transparent;
+}
+
 .btn {
 	margin-left: auto;
 	margin-right: auto;
@@ -14,7 +20,3 @@
 	border: none;
 }
 
-.partners__btn {
-	border: none;
-	background-color: transparent;
-}

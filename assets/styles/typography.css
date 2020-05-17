@@ -16,3 +16,34 @@
 	text-align: center;
 }
 
+h1 {
+	margin: 0 auto;
+}
+
+.lang {
+	text-transform: uppercase;
+	color: var(--c-white);
+	font-family: 'Open Sans', bold;
+	position: relative;
+}
+
+.lang:before {
+	content: "";
+	width: 2px;
+	height: 30px;
+	background-color: var(--c-gray-light);
+	position: absolute;
+	left: 70px;
+}
+
+.lang:after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	border-bottom: 2px solid var(--c-white);
+	border-left: 2px solid var(--c-white);
+	transform: rotate(-45deg);
+	left: 46px;
+	top: 5px;
+}
