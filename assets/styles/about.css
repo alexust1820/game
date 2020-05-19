@@ -1,0 +1,13 @@
+.about__header {
+	text-align: left;
+	border-bottom: 2px solid white;
+}
+
+.about__body {
+	max-width: 350px;
+	text-align: left;
+}
+
+.about__left {
+	max-width: 500px;
+}

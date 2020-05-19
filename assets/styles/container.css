@@ -3,6 +3,13 @@
 	width: 1200px;
 }
 
+.container.-about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
 @media screen and (max-width: 1239px) {
 	.container {
 		width: 1024px;
@@ -24,6 +31,5 @@
 @media screen and (max-width: 767px) {
 	.container {
 		width: 100%;
-		padding: 0 15px;
 	}
 }

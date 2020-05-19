@@ -10,37 +10,11 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background-image: url(../img/hero-bg.png);
+	background-image: url(../img/hero-bg.jpg);
 }
 
-.hero__left {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	min-width: 200px;
+.section.-about {
+	background-image: url(../img/about-bg.jpg);
+	padding-bottom: 60px;
+	height: 100vh;
 }
-
-.scroll-down {
-	text-align: center;
-	color: var(--c-white);
-	text-transform: uppercase;
-	font-family: 'Open Sans', bold;
-	display: flex;
-	min-height: 60px;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-	padding-bottom: 10px;
-}
-
-.scroll-down:after {
-	content: "";
-	width: 15px;
-	height: 15px;
-	background-color: transparent;
-	border-left: 2px solid var(--c-white);
-	border-bottom: 2px solid var(--c-white);
-	transform: rotate(-45deg);
-}
-
-.scroll 
