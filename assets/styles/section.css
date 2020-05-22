@@ -15,6 +15,5 @@ section {
 
 .section.-about {
 	background-image: url(../img/about-bg.jpg);
-	padding-bottom: 60px;
-	height: 100vh;
+	padding-top: 60px;
 }

@@ -5,9 +5,7 @@
 
 .container.-about {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+	justify-content: space-between;
 }
 
 @media screen and (max-width: 1239px) {

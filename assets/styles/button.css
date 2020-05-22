@@ -19,28 +19,4 @@
 	border: none;
 }
 
-.slider__next {
-	position: absolute;
-	outline: none;
-	width: 20px;
-	height: 20px;
-	right: -490px;
-	background-color: transparent;
-	border-bottom: 2px solid white;
-	border-right: 2px solid white;
-	transform: rotate(-45deg);
-	border-left: none;
-	border-top: none;
-	position: relative;
-}
 
-.slider__next:after {
-	content: "";
-	width: 2px;
-	height: 27px;
-	position: absolute;
-	background-color: var(--c-white);
-	transform: rotate(45deg);
-	left: 9px;
-	bottom: -5px;
-}

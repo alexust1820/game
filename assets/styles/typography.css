@@ -17,27 +17,34 @@
 	text-align: center;
 }
 
+.about__info {
+	font-weight: lighter;
+}
+
+.about__span {
+	font-weight: bolder;
+}
+
 h1 {
 	margin: 0 auto;
 }
 
-.subtitle.-about {
-	text-transform: uppercase;
-	text-align: left;
-	font-weight: lighter;
-}
-
 .title.-about {
-	text-transform: uppercase;
-	margin: 0px;
-	text-align: left;
-	font-weight: lighter;
+	margin-top: 10px;
 }
 
 .about__body {
 	color: var(--c-white);
 	font-family: 'Open Sans', cursive;
+	font-size: 20px;
+}
 
+.title.-about {
+	text-align: left;
+}
+
+.subtitle.-about {
+	text-align: left;
 }
 
 .lang {
