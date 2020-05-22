@@ -72,7 +72,7 @@
 	content: "";
 	background-color: var(--c-white);
 	width: 3px;
-	height: 33px;
+	height: 34px;
 	position: absolute;
 	transform: rotate(-45deg);
 	right: 10px;
