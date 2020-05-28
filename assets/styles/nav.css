@@ -4,11 +4,23 @@
 	color: var(--c-white);
 	font-family: 'Bebas Neue', cursive;
 	margin-right: 20px;
+	font-weight: lighter;
+}
+
+@media screen and (max-width: 940px) {
+	.nav.-footer {
+		margin: 20px 0 20px 0;
+	}
 }
 
 @media screen and (max-width: 767px) {
 	.nav {
 		display: none;
+	}
+
+	.nav.-footer {
+		display: block;
+		width: calc(100% - 20px);
 	}
 }
 

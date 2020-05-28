@@ -17,8 +17,29 @@
 	text-align: center;
 }
 
+.subtitle.-system {
+	text-transform: uppercase;
+}
+
+.title.-features, .subtitle.-features {
+	text-align: left;
+}
+
 .about__info {
 	font-weight: lighter;
+}
+
+.title.-sub {
+	margin: 0;
+}
+
+.subtitle.-sub {
+	text-transform: uppercase;
+}
+
+.sub__p {
+	color: var(--c-white);
+	font-family: 'Open Sans', cursive;
 }
 
 .about__span {
@@ -39,6 +60,15 @@ h1 {
 	font-size: 20px;
 }
 
+.title.-content {
+	margin-top: 20px;
+}
+
+.content__p {
+	color: var(--c-white);
+	font-family: 'Open Sans', cursive;
+}
+
 .title.-about {
 	text-align: left;
 }
@@ -47,11 +77,59 @@ h1 {
 	text-align: left;
 }
 
+.subtitle.-features {
+	text-transform: uppercase;
+}
+
+.title.-features {
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+.title.-system {
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+
+.req__p {
+	color: var(--c-white);
+	font-family: 'Open Sans', bold;
+}
+
+.subtitle.-req {
+	color: var(--c-yellow);
+	text-transform: uppercase;
+	text-align: left;
+}
+
 .lang {
 	text-transform: uppercase;
 	color: var(--c-white);
 	font-family: 'Open Sans', bold;
 	position: relative;
+}
+
+.features__list {
+	color: var(--c-white);
+}
+
+.footer__p {
+	color: var(--c-gray-light);
+	margin: 0;
+	padding: 20px 0 20px 0;
+	font-family: 'Open Sans', cursive;
+	display: flex;
+	align-items: center;
+}
+
+.footer__p.-span {
+	color: var(--c-white);
+	font-family: 'Open Sans', cursive;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .lang:before {
@@ -75,6 +153,26 @@ h1 {
 	top: 5px;
 }
 
+@media screen and (max-width: 1240px) {
+	.subtitle.-sub {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1126px) {
+	.title.-about {
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 940px) {
+	.footer__p.-span {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.title {
 		font-size: 50px;
@@ -82,6 +180,18 @@ h1 {
 
 	.subtitle {
 		font-size: 14px;
+	}
+
+	.subtitle.-about {
+		font-size: 24px;
+	}
+
+	.title.-about {
+		max-width: 300px;
+	}
+
+	.footer__p {
+		width: calc(100% - 15px);
 	}
 }
 
@@ -92,5 +202,29 @@ h1 {
 
 	.subtitle {
 		font-size: 12px;
+	}
+
+	.footer__span {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.about__info {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 597px) {
+	.about__info {
+		font-size: 26px;
+	}
+}
+
+@media screen and (max-width: 416px) {
+	.title.-features, .subtitle.-features {
+		text-align: center;
 	}
 }

@@ -1,0 +1,99 @@
+.user-avatar {
+	width: 67px;
+	height: 67px;
+	position: relative;
+	margin-right: 10px;
+	background-repeat: no-repeat;
+}
+
+.user-info {
+	margin-right: auto;
+}
+
+.user {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card__text {
+	font-family: 'Open Sans', cursive;
+	color: var(--c-white);
+}
+
+.card__date {
+	font-family: 'Open Sans', cursive;
+	color: var(--c-gray-dark);
+}
+
+.card.-evan {
+	margin-left: auto;
+}
+
+.card.-jada {
+	margin-right: auto;
+}
+
+.card.-aaron {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-width: 50%;
+	min-height: 100vh;
+}
+
+.user-name {
+	text-transform: uppercase;
+	color: var(--c-yellow);
+	font-family: 'Open Sans', cursive;
+	font-weight: bolder;
+}
+
+.user-job {
+	font-family: 'Open Sans', cursive;
+	color: var(--c-gray-dark);
+}
+
+.user-avatar.-evan {
+	background-image: url(../img/evan.png);
+}
+
+.user-avatar.-jada {
+	background-image: url(../img/jada.png);
+}
+
+.user-avatar.-aaron {
+	background-image: url(../img/aaron.png);
+}
+
+.user-avatar:before {
+	content: "";
+	width: 67px;
+	height: 67px;
+	background-color: var(--c-yellow);
+	position: absolute;
+	border-radius: 50%;
+	left: 15px;
+	top: 10px;
+	z-index: -1;
+}
+
+.card {
+	max-width:400px;
+	min-height: 150px;
+	background-color: var(--c-card);
+	margin-bottom: 20px;
+	border-radius: 7px;
+	padding: 30px;
+}
+
+@media screen and (max-width: 720px) {
+	.card {
+		margin: 0;
+	}
+}

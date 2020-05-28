@@ -14,15 +14,23 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/button.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/nav.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/scroll-down.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/footer.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/about.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/slider.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/table.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/features.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/quotes.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/cards.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/content.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/subscribe.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/form.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<section class="section -hero">
 		<div class="container">
 			<header class="header">
-				<img class="header__logo" src="./assets/img/logo.png">
+				<img class="logo" src="./assets/img/logo.png">
 					<nav class="nav">
 						<a class="nav__link" href="#">Main</a>
 						<a class="nav__link" href="#">About</a>
@@ -70,9 +78,9 @@
 			</div>
 			<div class="slider">
 				<div class="slider__item">
-					<img class="item -f" src="./assets/img/image-first.png">
-					<img class="item -s" src="./assets/img/image-second.png">
 					<img class="item -t" src="./assets/img/image-third.jpg">
+					<img class="item -s" src="./assets/img/image-second.png">
+					<img class="item -f" src="./assets/img/image-first.png">
 					<div class="slider__controls">
 						<button class="control"></button>
 						<button class="control"></button>
@@ -85,5 +93,164 @@
 			</div>
 		</div>
 	</section>
+	<section class="section -features">
+		<div class="container">
+			<div class="content -features">
+				<div class="features">
+						<h3 class="subtitle -features">What's so special?</h3>
+						<h2 class="title -features">Features</h2>
+					<ul class="features__list">
+						<li class="features__item -active">
+							<h4 class="features__title">Survive al all costs</h4>
+							<p class="text">You have 30 minutes to find a relic, signal for extraction, and grab one of three spots on the rescue chopper.</p>
+						</li>
+							<li class="features__item">
+							<h4 class="features__title">Create allies and enemies</h4>
+						</li>
+						<li class="features__item">
+							<h4 class="features__title">Impress the audience</h4>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<section class="section -system">
+		<div class="container">
+			<div class="content -system">
+				<h3 class="subtitle -system">Can my computer run this game?</h3>
+				<h2 class="title -system">System requirements</h2>
+				<div class="table">
+					<div class="table__row">
+						<div class="table__sell -twoinrow">
+						<h3 class="subtitle -req">Os:</h3>
+						<p class="req__p">Windows 7 64-bit only (No OSX support at this time)</p>
+						</div>
+					<div class="table__sell -twoinrow">
+						<h3 class="subtitle -req">Processor:</h3>
+						<p class="req__p">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</p>
+						</div>
+						</div>
+					<div class="table__row">
+						<div class="table__sell -twoinrow">
+						<h3 class="subtitle -req">Memory:</h3>
+						<p class="req__p">8 GB RAM</p>
+						</div>
+					<div class="table__sell -twoinrow">
+						<h3 class="subtitle -req">Storage:</h3>
+						<p class="req__p">8 GB available space</p>
+						</div>
+						</div>
+					<div class="table__sell">
+						<h3 class="subtitle -req">Graphics:</h3>
+						<p class="req__p">NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="section -quotes">
+		<div class="container">
+			<div class="content -quotes">
+				<div class="content__left">
+					<h3 class="subtitle">What people think?</h3>
+					<h2 class="title -content">Press quotes</h2>
+					<p class="content__p">Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.</p>
+					<button class="btn -quotes">Read more testimonials</button>
+				</div>
+				<div class="cards">
+					<div class="card -evan">
+						<div class="user">
+							<div class="user-avatar -evan"></div>
+							<div class="user-info">
+								<div class="user-name">Evan Lahti</div>
+								<div class="user-job">PC Gamer</div>
+							</div>
+							<a href="#"><img src="./assets/img/twitter.png"></a>
+						</div>
+						<div class="card__body">
+							<p class="card__text">“One of my gaming highlights of the year.”</p>
+							<p class="card__date">October 18, 2018</p>
+						</div>
+					</div>
+					<div class="card -jada">
+						<div class="user">
+							<div class="user-avatar -jada"></div>
+							<div class="user-info">
+								<div class="user-name">Jada Griffin</div>
+								<div class="user-job">Nerdreactor</div>
+							</div>
+							<a href="#"><img src="./assets/img/twitter.png"></a>
+						</div>
+						<div class="card__body">
+							<p class="card__text">“The next big thing in the world of streaming and survival games.”</p>
+							<p class="card__date">December 21, 2018</p>
+						</div>
+					</div>
+					<div class="card -aaron">
+						<div class="user">
+							<div class="user-avatar -aaron"></div>
+							<div class="user-info">
+								<div class="user-name">Aaron Williams</div>
+								<div class="user-job">Uproxx</div>
+							</div>
+							<a href="#"><img src="./assets/img/twitter.png"></a>
+						</div>
+						<div class="card__body">
+							<p class="card__text">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</p>
+							<p class="card__date">December 24, 2018</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section -subscribe">
+		<div class="container">
+			<div class="content -subscribe">
+				<img class="trophy__img" src="./assets/img/trophy.png">
+					<div class="sub__info">
+						<h3 class="subtitle -sub">Want to stay touch?</h3>
+						<h2 class="title -sub">Newsletter Subscribe</h2>
+						<p class="sub__p">
+							In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.
+						</p>
+						<div class="form">
+							<div class="fieldset">
+								<label for="email">
+									<input class="input" name="email" type="email" placeholder="aliciliniavopir@gmail.com">
+								</label>
+							</div>
+							<button class="btn -sub" type="submit">Subscribe now</button>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="content -footer">
+				<div class="footer__top">
+						<img class="logo" src="./assets/img/logo.png">
+					<nav class="nav -footer">						<a class="nav__link" href="#">Main</a>
+						<a class="nav__link" href="#">About</a>
+						<a class="nav__link" href="#">Game features</a>
+						<a class="nav__link" href="#">System requirements</a>
+						<a class="nav__link" href="#">Quotes</a>
+					</nav>
+					<div class="links">
+						<a class="link -facebook" href="#"><img src="./assets/img/facebook.png"></a>
+						<a class="link -twitter" href="#"><img src="./assets/img/twitter.png"></a>
+						<a class="link -YT" href="#"><img src="./assets/img/YT.png"></a>
+						<a class="link -twitch" href="#"><img src="./assets/img/twitch.png"></a>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<p class="footer__p"> © 2018 Outpost Games, Inc. All Rights Reserved</p>
+					<div class="footer__p -span"><p>Privacy Policy</p> <span class="footer__span">Terms of Services</span><p> Code of Conduct</p> </div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

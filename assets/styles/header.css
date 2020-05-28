@@ -4,7 +4,7 @@
 	align-items: center;
 }
 
-.header__logo {
+.logo {
 	width: 70px;
 	height: 70px;
 }
@@ -24,9 +24,10 @@
 		display: none;
 	}
 
-	.header__logo {
+	.logo {
 		max-width: 50px;
 		max-height: 50px;
+		margin: 15px;
 	}
 
 	.burger {

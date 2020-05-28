@@ -1,0 +1,27 @@
+.table {
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+}
+
+.table__sell{
+	border: 1px solid var(--c-gray-light);
+	min-height: 120px;
+	padding: 10px;
+}
+
+.table__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.table__sell.-twoinrow {
+	width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+	.table {
+		margin: 0 auto;
+		width: calc(100% - 30px);
+	}
+}

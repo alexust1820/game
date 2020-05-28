@@ -17,6 +17,40 @@
 	background-color: var(--c-yellow);
 	font-weight: bolder;
 	border: none;
+	border-radius: 5px;
 }
 
+.btn.-quotes {
+	margin: 0;
+	min-width: 150px;
+	min-height: 50px;
+}
 
+.btn.-sub {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1240px) {
+	.btn.-sub {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 940px) {
+	.btn.-sub {
+		width: calc(100% - 10px);
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.btn.-sub {
+		position: absolute;
+		bottom: -140px;
+		left: -45%;
+		max-width: 300px;
+	}
+}

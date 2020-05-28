@@ -3,6 +3,10 @@ body {
 	margin: 0 auto;
 }
 
+ul, ol {
+	list-style-type: none;
+}
+
 
 
 

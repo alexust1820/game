@@ -1,13 +1,12 @@
 section {
+	display: flex;
 	min-height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	flex-direction: column;
 }
 
 .section.-hero {
-	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	background-image: url(../img/hero-bg.jpg);
@@ -15,5 +14,21 @@ section {
 
 .section.-about {
 	background-image: url(../img/about-bg.jpg);
-	padding-top: 60px;
+}
+
+.section.-features {
+	background-image: url(../img/features-bg.jpg);
+}
+
+.section.-system {
+	background-image: url(../img/system-bg.jpg);
+	padding: 40px 0 0 0;
+}
+
+.section.-quotes {
+	background-image: url(../img/quotes-bg.jpg);
+}
+
+.section.-subscribe {
+	background-image: url(../img/sub-bg.jpg);
 }

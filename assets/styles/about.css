@@ -10,6 +10,12 @@
 	margin-right: 30px;
 }
 
+.container.-about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .about__body {
 	display: flex;
 	justify-content: flex-end;
@@ -34,5 +40,10 @@
 @media screen and (max-width: 1064px) {
 	.about__border:after {
 		display: none;
+	}
+
+	.about__left {
+		margin-right: 0px;
+		max-width: 350px;
 	}
 }
